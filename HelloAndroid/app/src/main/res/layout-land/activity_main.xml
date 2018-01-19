@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/background"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blue" />
+
+    <ImageView
+        android:id="@+id/udacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        android:src="@drawable/udac" />
+
+    <ImageView
+        android:id="@+id/www"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adress"
+        android:layout_toLeftOf="@+id/address4"
+        android:layout_toStartOf="@+id/address4"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        android:src="@drawable/phone" />
+
+
+    <TextView
+        android:id="@+id/address4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/adress"
+        android:layout_alignStart="@+id/adress"
+        android:layout_below="@+id/adress"
+        android:fontFamily="@font/bellerose"
+        android:gravity="start"
+        android:text="@string/number"
+        android:textAlignment="viewStart"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/goog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_toEndOf="@+id/linked"
+        android:layout_toRightOf="@+id/linked"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        android:src="@drawable/insta" />
+
+    <ImageView
+        android:id="@+id/linked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/address4"
+        android:layout_toRightOf="@+id/address4"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        android:src="@drawable/twitter" />
+
+    <TextView
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/udacity"
+        android:layout_marginLeft="91dp"
+        android:layout_marginStart="91dp"
+        android:fontFamily="@font/bellerose"
+        android:text="@string/UDACITY"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/address5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address1"
+        android:layout_alignStart="@+id/address1"
+        android:layout_below="@+id/address1"
+        android:fontFamily="@font/bellerose"
+        android:text="@string/Mountain"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/address6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/address5"
+        android:layout_below="@+id/address5"
+        android:fontFamily="@font/bellerose"
+        android:text="@string/CA"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address4"
+        android:layout_alignStart="@+id/address4"
+        android:layout_below="@+id/address4"
+        android:fontFamily="@font/bellerose"
+        android:text="@string/street"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/address1"
+        android:layout_toLeftOf="@+id/address4"
+        android:layout_toStartOf="@+id/address4"
+        android:src="@drawable/map" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/address4"
+        android:layout_toLeftOf="@+id/address4"
+        android:layout_toStartOf="@+id/address4"
+        android:src="@drawable/www" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/goog"
+        android:layout_toRightOf="@+id/goog"
+        android:src="@drawable/face" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:src="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/address6"
+        android:layout_alignStart="@+id/address6"
+        android:layout_alignTop="@+id/linked"
+        android:src="@drawable/www"
+        tools:clickable="true"
+        />
+
+</RelativeLayout>

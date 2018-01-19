@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="number">650-555-5555</string>
+    <string name="UDACITY">UDACITY</string>
+    <string name="Mountain">Mountain View</string>
+    <string name="CA">CA 94043</string>
+    <string name="street">2465 Latham St</string>
+    <string name="background">background</string>
+</resources>
